@@ -22,15 +22,12 @@ exports.init = function (filePath) {
 }
 
 exports.watch = function (opts) {
-  opts.watchFiles instanceof Array === false && (opts.watchFiles = [])
   gulp.task('build', build(opts))
   exports.run(opts)
-  opts.watchFiles.push(opts.config)
-  gulp.watch(opts.watchFiles, ['build'])
+  gulp.watch(opts.config, ['build'])
 }
 
 exports.run = function (opts, cb) {
-  opts.watchFiles instanceof Array === false && (opts.watchFiles = [])
   gulp.task('build', build(opts))
   gulp.task('fonts', fonts(opts))
   if (typeof cb === 'function') {
