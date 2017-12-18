@@ -115,7 +115,7 @@
   "scripts": {
     "test": "xo"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "xo": {
     "space": true,
     "rule": {
