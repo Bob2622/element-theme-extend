@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "element-theme-extend",
+        "scope": null,
+        "escapedName": "element-theme-extend",
+        "name": "element-theme-extend",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/a2622/project"
+    ]
+  ],
+  "_from": "element-theme-extend@latest",
+  "_id": "element-theme-extend@0.0.1",
+  "_inCache": true,
+  "_location": "/element-theme-extend",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/element-theme-extend-0.0.1.tgz_1500274702816_0.7418470266275108"
+  },
+  "_npmUser": {
+    "name": "zhangbobo",
+    "email": "276267769@qq.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "element-theme-extend",
+    "scope": null,
+    "escapedName": "element-theme-extend",
+    "name": "element-theme-extend",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:element-theme-extend",
+  "_shasum": "73618b6b7bcd3b9fcebed8cd15a2502be72bcf0c",
+  "_shrinkwrap": null,
+  "_spec": "element-theme-extend",
+  "_where": "/Users/a2622/project",
+  "author": {
+    "name": "qingwei-li",
+    "email": "cinwell.li@gmail.com",
+    "url": "https://github.com/QingWei-Li"
+  },
+  "bin": {
+    "element-theme": "./bin/element-theme",
+    "et": "./bin/element-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/ElementUI/element-theme/issues"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-nop": "0.0.3",
+    "gulp-postcss": "^6.2.0",
+    "ora": "^0.3.0",
+    "postcss-salad": "^1.0.6",
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.3"
+  },
+  "description": "Theme generator cli tool for Element",
+  "devDependencies": {
+    "element-theme-default": "git+https://github.com/ElementUI/theme-default.git",
+    "xo": "^0.17.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "73618b6b7bcd3b9fcebed8cd15a2502be72bcf0c",
+    "tarball": "https://registry.npmjs.org/element-theme-extend/-/element-theme-extend-0.0.1.tgz"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "gitHead": "dcafc5622f9a7ac89c16cd659eaee2b0360cacc8",
+  "homepage": "https://github.com/ElementUI/element-theme#readme",
+  "keywords": [
+    "element-ui",
+    "vue",
+    "theme",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zhangbobo",
+      "email": "276267769@qq.com"
+    }
+  ],
+  "name": "element-theme-extend",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "element-theme-default": "*"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ElementUI/element-theme.git"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "version": "0.0.1",
+  "xo": {
+    "space": true,
+    "rule": {
+      "semi": 0,
+      "unicorn/no-process-exit": 0,
+      "import/no-dynamic-require": 0
+    }
+  }
+}
