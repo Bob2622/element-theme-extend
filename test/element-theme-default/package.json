@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "element-theme-default@git+https://github.com/ElementUI/theme-default.git",
+        "scope": null,
+        "escapedName": "element-theme-default",
+        "name": "element-theme-default",
+        "rawSpec": "git+https://github.com/ElementUI/theme-default.git",
+        "spec": "git+https://github.com/ElementUI/theme-default.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ElementUI/theme-default.git",
+          "sshUrl": "git+ssh://git@github.com/ElementUI/theme-default.git",
+          "httpsUrl": "git+https://github.com/ElementUI/theme-default.git",
+          "gitUrl": "git://github.com/ElementUI/theme-default.git",
+          "shortcut": "github:ElementUI/theme-default",
+          "directUrl": "https://raw.githubusercontent.com/ElementUI/theme-default/master/package.json"
+        }
+      },
+      "/Users/a2622/project/element-theme-extend"
+    ]
+  ],
+  "_from": "git+https://github.com/ElementUI/theme-default.git",
+  "_id": "element-theme-default@1.4.12",
+  "_inCache": true,
+  "_location": "/element-theme-default",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "element-theme-default@git+https://github.com/ElementUI/theme-default.git",
+    "scope": null,
+    "escapedName": "element-theme-default",
+    "name": "element-theme-default",
+    "rawSpec": "git+https://github.com/ElementUI/theme-default.git",
+    "spec": "git+https://github.com/ElementUI/theme-default.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ElementUI/theme-default.git",
+      "sshUrl": "git+ssh://git@github.com/ElementUI/theme-default.git",
+      "httpsUrl": "git+https://github.com/ElementUI/theme-default.git",
+      "gitUrl": "git://github.com/ElementUI/theme-default.git",
+      "shortcut": "github:ElementUI/theme-default",
+      "directUrl": "https://raw.githubusercontent.com/ElementUI/theme-default/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/ElementUI/theme-default.git#f49d2a0922d7eb5b730b8025c4ac2d0d99bc1c55",
+  "_shasum": "0659da6088dc3eb0e2f97a1f7c6e8e5d93f01c43",
+  "_shrinkwrap": null,
+  "_spec": "element-theme-default@git+https://github.com/ElementUI/theme-default.git",
+  "_where": "/Users/a2622/project/element-theme-extend",
+  "author": {
+    "name": "haiping.zeng",
+    "email": "qingwei.li@ele.me"
+  },
+  "bugs": {
+    "url": "https://github.com/ElementUI/theme-default/issues"
+  },
+  "dependencies": {},
+  "description": "Element component default theme.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-postcss": "^6.1.1",
+    "postcss-salad": "^1.0.5"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "gitHead": "f49d2a0922d7eb5b730b8025c4ac2d0d99bc1c55",
+  "homepage": "https://github.com/ElementUI/theme-default#readme",
+  "keywords": [
+    "element",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "lib/index.css",
+  "name": "element-theme-default",
+  "optionalDependencies": {},
+  "readme": "# element-theme-default\n> element component defualt theme.\n\n\n## Installation\n```shell\nnpm i element-theme-default -S\n```\n\n## Usage\n\nUse Sass Or postcss-import\n```css\n@import 'element-theme-default';\n```\n\nOr Use webpack\n```javascript\nimport 'element-theme-default';\n```\n\nOr\n```html\n<link rel=\"stylesheet\" href=\"path/to/node_modules/element-theme-default/lib/index.css\">\n```\n\n##  Import your need\n```javascript\nimport 'element-theme-default/lib/input.css';\nimport 'element-theme-default/lib/select.css';\n\n// ...\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElementUI/theme-default.git"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "style": "lib/index.css",
+  "version": "1.4.12"
+}

@@ -71,6 +71,7 @@
   "description": "Theme generator cli tool for Element",
   "devDependencies": {
     "element-theme-default": "git+https://github.com/ElementUI/theme-default.git",
+    "shelljs": "^0.7.8",
     "xo": "^0.17.0"
   },
   "directories": {},
