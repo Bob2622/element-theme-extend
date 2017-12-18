@@ -5,9 +5,7 @@ var main = require('../index.js')
 var check = require('../lib/gen-vars').check
 var config = {}
 
-console.log()
 process.on('exit', function () {
-  console.log()
 })
 
 program

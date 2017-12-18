@@ -1016,5 +1016,44 @@ body .markdown-body
 }
 </style><title>README</title></head><body><article class="markdown-body"><h1 id="element-theme-extend"><a name="user-content-element-theme-extend" href="#element-theme-extend" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>element-theme-extend</h1>
 <p>具体详细配置参考 <a href="https://github.com/ElementUI/element-theme">element-theme</a></p>
+<blockquote>
+<p>扩展功能</p>
+</blockquote>
+<ol>
+<li>themePath 扩展为 可指定主题库的目录<br />
+<pre><code>...
+et.watch({
+  ...
+  themePath: './src/theme'
+});
+...
+</code></pre></li>
+<li>package.json中 扩展为 可指定主题库的目录 <br />
+<pre><code>{
+    ...
+    &quot;element-theme&quot;: {
+        ...
+        &quot;theme&quot;: &quot;./src/theme&quot;,
+        ...
+    }
+    ...
+}
+</code></pre></li>
+<li>et -w 自动监听所配置主题库文件的变化编译</li>
+</ol>
+<blockquote>
+<p>注意事项</p>
+</blockquote>
+<ol>
+<li>
+<p>需要搭配使用<br />
+element-ui 2.x.x<br />
+主题使用 <a href="git@github.com:ElementUI/theme-chalk.git">element-theme-chalk</a></p>
+</li>
+<li>
+<p>使用 element-ui 1.x.x 请切换到 <a href="https://github.com/Bob2622/element-theme-extend/tree/v0.0.2">v0.0.2 版本</a><br />
+主题使用 <a href="git@github.com:ElementUI/theme-default.git">element-theme-default</a></p>
+</li>
+</ol>
 <h2 id="license"><a name="user-content-license" href="#license" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>License</h2>
 <p>MIT</p></article></body></html>

@@ -2,49 +2,50 @@
   "_args": [
     [
       {
-        "raw": "element-theme-extend",
+        "raw": "element-theme@2.x.x",
         "scope": null,
-        "escapedName": "element-theme-extend",
-        "name": "element-theme-extend",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "escapedName": "element-theme",
+        "name": "element-theme",
+        "rawSpec": "2.x.x",
+        "spec": ">=2.0.0 <3.0.0",
+        "type": "range"
       },
-      "/Users/a2622/project"
+      "/Users/a2622/project/emi-template"
     ]
   ],
-  "_from": "element-theme-extend@latest",
-  "_id": "element-theme-extend@0.0.1",
+  "_from": "element-theme@>=2.0.0 <3.0.0",
+  "_id": "element-theme@2.0.1",
   "_inCache": true,
-  "_location": "/element-theme-extend",
-  "_nodeVersion": "6.9.4",
+  "_location": "/element-theme",
+  "_nodeVersion": "8.9.0",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/element-theme-extend-0.0.1.tgz_1500274702816_0.7418470266275108"
+    "tmp": "tmp/element-theme-2.0.1.tgz_1510125790201_0.7602456582244486"
   },
   "_npmUser": {
     "name": "zhangbobo",
     "email": "276267769@qq.com"
   },
-  "_npmVersion": "3.10.10",
+  "_npmVersion": "5.5.1",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "element-theme-extend",
+    "raw": "element-theme@2.x.x",
     "scope": null,
-    "escapedName": "element-theme-extend",
-    "name": "element-theme-extend",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "escapedName": "element-theme",
+    "name": "element-theme",
+    "rawSpec": "2.x.x",
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
   },
   "_requiredBy": [
+    "#DEV:/",
     "#USER"
   ],
-  "_resolved": "file:element-theme-extend",
-  "_shasum": "73618b6b7bcd3b9fcebed8cd15a2502be72bcf0c",
+  "_resolved": "https://registry.npmjs.org/element-theme/-/element-theme-2.0.1.tgz",
+  "_shasum": "009bd361d9761a157881f09d62efdf34cfbf1565",
   "_shrinkwrap": null,
-  "_spec": "element-theme-extend",
-  "_where": "/Users/a2622/project",
+  "_spec": "element-theme@2.x.x",
+  "_where": "/Users/a2622/project/emi-template",
   "author": {
     "name": "qingwei-li",
     "email": "cinwell.li@gmail.com",
@@ -60,24 +61,23 @@
   "dependencies": {
     "commander": "^2.9.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-nop": "0.0.3",
-    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^3.1.0",
     "ora": "^0.3.0",
-    "postcss-salad": "^1.0.6",
-    "run-sequence": "^1.2.2",
-    "through2": "^2.0.3"
+    "run-sequence": "^1.2.2"
   },
   "description": "Theme generator cli tool for Element",
   "devDependencies": {
-    "element-theme-default": "git+https://github.com/ElementUI/theme-default.git",
-    "shelljs": "^0.7.8",
+    "element-theme-chalk": "^2.0.0-alpha.1",
     "xo": "^0.17.0"
   },
   "directories": {},
   "dist": {
-    "shasum": "73618b6b7bcd3b9fcebed8cd15a2502be72bcf0c",
-    "tarball": "https://registry.npmjs.org/element-theme-extend/-/element-theme-extend-0.0.1.tgz"
+    "integrity": "sha512-3FOUq8xff4CuJfUxNaUCc7bRtf1cEkmIIKwJ9HS5dd7ujegfj5oqPj4MAgPvYr9wSzqbHuknNj+qWvr6O5lGtA==",
+    "shasum": "009bd361d9761a157881f09d62efdf34cfbf1565",
+    "tarball": "https://registry.npmjs.org/element-theme/-/element-theme-2.0.1.tgz"
   },
   "engines": {
     "node": ">=0.12.0"
@@ -86,7 +86,7 @@
     "bin",
     "lib"
   ],
-  "gitHead": "dcafc5622f9a7ac89c16cd659eaee2b0360cacc8",
+  "gitHead": "6b2a112c6ba47893e7a4b6fb736fbe5d073b0dd5",
   "homepage": "https://github.com/ElementUI/element-theme#readme",
   "keywords": [
     "element-ui",
@@ -102,10 +102,10 @@
       "email": "276267769@qq.com"
     }
   ],
-  "name": "element-theme-extend",
+  "name": "element-theme",
   "optionalDependencies": {},
   "peerDependencies": {
-    "element-theme-default": "*"
+    "element-theme-chalk": "*"
   },
   "readme": "ERROR: No README data found!",
   "repository": {
@@ -115,7 +115,7 @@
   "scripts": {
     "test": "xo"
   },
-  "version": "0.0.2",
+  "version": "2.0.1",
   "xo": {
     "space": true,
     "rule": {

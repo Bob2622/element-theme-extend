@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "element-theme-chalk@^2.0.0-alpha.1",
+        "scope": null,
+        "escapedName": "element-theme-chalk",
+        "name": "element-theme-chalk",
+        "rawSpec": "^2.0.0-alpha.1",
+        "spec": ">=2.0.0-alpha.1 <3.0.0",
+        "type": "range"
+      },
+      "/Users/a2622/project/element-theme-extend"
+    ]
+  ],
+  "_from": "element-theme-chalk@>=2.0.0-alpha.1 <3.0.0",
+  "_id": "element-theme-chalk@2.0.8",
+  "_inCache": true,
+  "_location": "/element-theme-chalk",
+  "_nodeVersion": "8.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/element-theme-chalk-2.0.8.tgz_1513069642622_0.6724655774887651"
+  },
+  "_npmUser": {
+    "name": "yi.yang",
+    "email": "leopoldthecuber@gmail.com"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "element-theme-chalk@^2.0.0-alpha.1",
+    "scope": null,
+    "escapedName": "element-theme-chalk",
+    "name": "element-theme-chalk",
+    "rawSpec": "^2.0.0-alpha.1",
+    "spec": ">=2.0.0-alpha.1 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/element-theme-chalk/-/element-theme-chalk-2.0.8.tgz",
+  "_shasum": "4314e8a71d6c6c37969cd24a9f6aa02adb31d3bb",
+  "_shrinkwrap": null,
+  "_spec": "element-theme-chalk@^2.0.0-alpha.1",
+  "_where": "/Users/a2622/project/element-theme-extend",
+  "author": {
+    "name": "yi.shyang@ele.me"
+  },
+  "bugs": {
+    "url": "https://github.com/ElementUI/theme-chalk/issues"
+  },
+  "dependencies": {},
+  "description": "Element component chalk theme.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-STJV0wXhGiahltzSqJHYAmCDLAGa8dsytHc56MdnVR60WpBKfPhFC5WUlRYh5dSgy2J7FbM9ZFExHWp1OUoF/A==",
+    "shasum": "4314e8a71d6c6c37969cd24a9f6aa02adb31d3bb",
+    "tarball": "https://registry.npmjs.org/element-theme-chalk/-/element-theme-chalk-2.0.8.tgz"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "homepage": "https://github.com/ElementUI/theme-chalk#readme",
+  "keywords": [
+    "element",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "lib/index.css",
+  "maintainers": [
+    {
+      "name": "yi.yang",
+      "email": "leopoldthecuber@gmail.com"
+    }
+  ],
+  "name": "element-theme-chalk",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElementUI/theme-chalk.git"
+  },
+  "scripts": {
+    "build": "gulp build"
+  },
+  "style": "lib/index.css",
+  "version": "2.0.8"
+}
