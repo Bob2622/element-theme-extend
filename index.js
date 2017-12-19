@@ -24,7 +24,7 @@ exports.init = function (filePath) {
 exports.watch = function (opts) {
   gulp.task('build', build(opts))
   exports.run(opts)
-  gulp.watch(opts.config, ['build'])
+  gulp.watch([ opts.config, opts.themePath + '/src/**' ], ['build'])
 }
 
 exports.run = function (opts, cb) {
