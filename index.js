@@ -25,7 +25,7 @@ exports.watch = function (opts) {
   Object.assign(config, opts);
   gulp.task('build', build(opts))
   exports.run(opts)
-  gulp.watch([ opts.config || config.config, opts.themePath + '/**'], ['build'])
+  gulp.watch([ opts.config || config.config, opts.themePath + '/src/**'], ['build'])
 }
 
 exports.run = function (opts, cb) {
